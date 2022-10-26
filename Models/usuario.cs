@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace proyecto24BM.Models
 {
     public class usuario
     {
-        [key]
+        [Key]
         public int PkUsuario { get; set; }
         public string Nombre { get; set; }
         public string User { get; set; }
